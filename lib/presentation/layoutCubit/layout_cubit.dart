@@ -1,15 +1,16 @@
 import 'dart:convert';
 
-import 'package:ecommerce_app/helper/constant.dart';
+// import 'package:ecommerce_app/helper/constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 
-import '../models/banner_model.dart';
-import '../models/category_model.dart';
-import '../models/product_model.dart';
-import '../models/user_model.dart';
+import '../../data/models/banner_model.dart';
+import '../../data/models/category_model.dart';
+import '../../data/models/product_model.dart';
+import '../../data/models/user_model.dart';
+import '../../utils/helper/constant.dart';
 import '../views/cart_screen.dart';
 import '../views/category_screen.dart';
 import '../views/favorite_screen.dart';

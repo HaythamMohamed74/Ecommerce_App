@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 // import 'package:bloc/bloc.dart';
-import 'package:ecommerce_app/authCubit/register_state.dart';
+// import 'package:ecommerce_app/authCubit/register_state.dart';
+import 'package:ecommerce_app/presentation/authCubit/register_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
 // import 'package:http/http.dart';

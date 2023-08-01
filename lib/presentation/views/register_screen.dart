@@ -1,10 +1,10 @@
-import 'package:ecommerce_app/authCubit/register_cubit.dart';
-import 'package:ecommerce_app/authCubit/register_state.dart';
-import 'package:ecommerce_app/views/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../authCubit/register_cubit.dart';
+import '../authCubit/register_state.dart';
 import '../widgets/buildTextFormField.dart';
+import 'login_screen.dart';
 
 class RegisterScreen extends StatelessWidget {
   final nameController = TextEditingController();

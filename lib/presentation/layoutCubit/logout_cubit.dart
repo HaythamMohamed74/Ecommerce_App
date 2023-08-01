@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:ecommerce_app/layoutCubit/logout_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 
-import '../helper/constant.dart';
+import '../../utils/helper/constant.dart';
+import 'logout_state.dart';
 
 class LogoutCubit extends Cubit<LogoutState> {
   LogoutCubit() : super(LogoutInitial());

@@ -1,7 +1,7 @@
-import 'package:ecommerce_app/views/login_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../helper/app_images/images.dart';
+import '../../utils/helper/app_images/images.dart';
+import 'login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

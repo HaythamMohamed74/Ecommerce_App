@@ -1,12 +1,11 @@
-import 'package:ecommerce_app/layoutCubit/layout_cubit.dart';
-import 'package:ecommerce_app/layoutCubit/logout_cubit.dart';
-import 'package:ecommerce_app/views/layout_screen.dart';
-import 'package:ecommerce_app/views/login_screen.dart';
+import 'package:ecommerce_app/presentation/layoutCubit/layout_cubit.dart';
+import 'package:ecommerce_app/presentation/layoutCubit/logout_cubit.dart';
+import 'package:ecommerce_app/presentation/views/layout_screen.dart';
+import 'package:ecommerce_app/presentation/views/login_screen.dart';
+import 'package:ecommerce_app/utils/helper/constant.dart';
+import 'package:ecommerce_app/utils/helper/user_token.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'helper/constant.dart';
-import 'helper/user_token.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

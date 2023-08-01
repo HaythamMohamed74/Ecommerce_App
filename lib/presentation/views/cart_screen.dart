@@ -1,9 +1,10 @@
-import 'package:ecommerce_app/helper/app_images/images.dart';
-import 'package:ecommerce_app/layoutCubit/layout_cubit.dart';
-import 'package:ecommerce_app/layoutCubit/layout_state.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../utils/helper/app_images/images.dart';
+import '../layoutCubit/layout_cubit.dart';
+import '../layoutCubit/layout_state.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({Key? key}) : super(key: key);
